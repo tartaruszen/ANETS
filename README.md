@@ -1,0 +1,2 @@
+# ANETS
+Attributed graph summarization
