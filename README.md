@@ -10,9 +10,7 @@ Citing
 If you find ANets useful in your research, we ask that you cite the following paper:
 ```
 @Article{Amiri2018,
-author="Amiri, Sorour E.
-and Chen, Liangzhe
-and Prakash, B. Aditya",
+author="Amiri, Sorour E. and Chen, Liangzhe and Prakash, B. Aditya",
 title="Efficiently summarizing attributed diffusion networks",
 journal="Data Mining and Knowledge Discovery",
 year="2018",
