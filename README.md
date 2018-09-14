@@ -1,5 +1,4 @@
-# ANETS
-Efficiently summarizing attributed diffusion networks
+# ANETS Efficiently summarizing attributed diffusion networks (DAMI/ECML-PKDD 2018)
 ==========================================================================
 
 Authors: Sorour E. Amiri, Liangzhe Chen, and B. Aditya Prakash
