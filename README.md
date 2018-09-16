@@ -27,22 +27,26 @@ url="https://doi.org/10.1007/s10618-018-0572-z"
 
 Usage:
 -----
-Note: You need to set the correct MATLAB_path in the makefile (Including the MATLAB executable).
+To run ANets do as follows,
 ```
-- Example:
-    MATLAB_path = '/Applications/MATLAB_R2016a.app/bin/matlab'
-```    
-To run DASSA do as follows,
-```
+>> make
 >> make demo  
 ```
+First do 'make' (to compile sources). Then 'make demo' will run the ANets for toy example. 
 
+To run ANets on a graph:
 
 ```
 - Example: 
-    python Anets.py
+    python Anets.py <data_path> <percent> <num thread 1> <num thread 2> 
 ```
+- <data_path>: Directory of the dataset
 
+- <percent>: The percentage of compression
+
+- <num thread 1>: Number of processors to summaries graphs in parallel
+
+- <num thread 2>: Number of processors to generate the segmentation graphs in parallel
 
 
 Input: 
@@ -82,5 +86,21 @@ node	feature1   feature2 feature3
 
 Output:
 -------
+- links.txt: link list of the summary graph. It shows a weighted link from a super-node of another one. Here is an example:
 
+```
+source	target	weight
+1	3	5.1011e-06
+3	4	0.0025537
+4	3	8.42034e-10
+```
+
+- features.txt: It shows the attributes of each super-node in the summary graph.
+- node_map.txt: It shows the nodes in each super-nodes. Here is an example:
+
+```
+1: 1    2
+3: 3    5
+4: 4
+```
 
