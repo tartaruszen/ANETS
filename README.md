@@ -42,7 +42,7 @@ To run ANets on a graph:
 ```
 - <data_path>: Directory of the dataset
 
-- <percent>: The percentage of compression
+- < percent>: The percentage of compression
 
 - <num thread 1>: Number of processors to summaries graphs in parallel
 
