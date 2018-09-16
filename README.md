@@ -35,10 +35,8 @@ To run ANets do as follows,
 First do 'make' (to compile sources). Then 'make demo' will run the ANets for toy example. 
 
 To run ANets on a graph:
-
 ```
-- Example: 
-    python Anets.py <data_path> <percent> <num thread 1> <num thread 2> 
+python Anets.py <data_path> <percent> <num thread 1> <num thread 2> 
 ```
 - <data_path>: Directory of the dataset
 
@@ -47,7 +45,10 @@ To run ANets on a graph:
 - <num thread 1>: Number of processors to summaries graphs in parallel
 
 - <num thread 2>: Number of processors to generate the segmentation graphs in parallel
-
+```
+- Example: 
+    python Anets.py ../data/disney/ 70 1 1
+```
 
 Input: 
 ------
