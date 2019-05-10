@@ -52,7 +52,7 @@ python Anets.py <data_path> <percent> <num thread 1> <num thread 2>
 
 Input: 
 ------
-- edges.txt : It is a tab separated file and index of nodes starts from 1 and are consecutive. Here is an example graph and its representation:
+- links.txt : It is a tab separated file and index of nodes starts from 1 and are consecutive. Here is an example graph and its representation:
 
 ```
  1-------2
@@ -65,7 +65,7 @@ Input:
     \ /
      4
 ```
-- The graph.txt file is:
+- The links.txt file is:
 ```
 Source	Target
 1	2
